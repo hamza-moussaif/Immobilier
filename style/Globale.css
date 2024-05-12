@@ -1,0 +1,78 @@
+.glb {
+    align-items: center;
+    margin-top: 8rem;
+  }
+  .big-title h2 {
+    text-align: center !important;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .container-1 {
+    width: 50vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .little-title {
+    text-align: center !important;
+    margin: 2rem;
+  }
+  .allButton {
+    display: flex !important;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    gap: 2rem;
+  }
+  .button-1,
+  .button-2 {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  .button-1 {
+    background-color: black;
+    color: aliceblue;
+  }
+  .button-2 {
+    background-color: transparent;
+    color: black;
+    border: 1px solid grey;
+  }
+  
+  .button-1:hover {
+    background-color: #e6e6e6;
+    transition: background-color 0.8s;
+    color: #242424;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid grey;
+  }
+  
+  .button-2:hover {
+    background-color: black;
+    transition: background-color 0.8s;
+    color: aliceblue;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  .dataX {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .allContainer {
+    display: flex;
+    margin: 3rem;
+    gap: 5rem;
+  }
+  

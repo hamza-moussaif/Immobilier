@@ -1,0 +1,49 @@
+/* connection.css */
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    background-color: #f1f1f1;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 30px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+.submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.submit:hover{
+    transition: background-color 0.5s;
+    background-color: white;
+    color: black;
+}
+select{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
